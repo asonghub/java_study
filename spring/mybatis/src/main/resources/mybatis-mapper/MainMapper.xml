@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatis.mybatis.mapper.MainMapper">
+    <select id="findAll" resultType="com.mybatis.mybatis.domain.Users">
+<!--        여기에 sql문을 정의-->
+        SELECT * FROM users;
+    </select>
+</mapper>
+
+<!--xml과 인터페이스를 매핑  (mapper=mainmapper)
+xml파일은 바로 사용하지 못함.
+
+xml은 sql문만 정의함.
+
+
+resultType은 반환타입을 지정해준것. Users로 반환타입을 지정한것.
+sql문은 findAll로 가져다 사용가능.
+-->

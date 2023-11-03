@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<h1>마이페이지</h1>
+<form action="/mypage" method="patch">
+이름 : <input type="text" th:value="${name}" />
+<br />
+ID : <input type="text" th:value="${userid}" />
+<br />
+PASSWORD : <input type="password" th:value="${password}" />
+<br />
+
+<button type="submit">수정하기</button>
+<button type="submit">탈퇴하기</button>
+
+
+</body>
+</html>
