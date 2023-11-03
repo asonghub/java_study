@@ -24,10 +24,10 @@ public class MainController {
     // ?key=value
     // /get/response1?name=abc
     // 기본 값으로 required=true 를 갖기 때문에 ?name= 을 필수로 보내 줘야 한다.
-    public  String getResponse1(@RequestParam(value = "name") String n, Model model){
-        model.addAttribute("name", n);
-        return "response";
-    }
+public  String getResponse1(@RequestParam(value = "name") String n, Model model){
+    model.addAttribute("name", n);
+    return "response";
+}
     @GetMapping("/get/response2")
     //required false 여서 /get/response2 로 연결 해도 실행됨!
     public  String getResponse2(@RequestParam(value = "name", required = false) String n, Model model){
