@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.ort">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="id" id="id" />
+        <br />
+        <input type="text" name="pw" id="pw" />
+        <br />
+        <input type="text" name="name" id="name" >
+        <br />
+        <button type="button" onclick="register()">회원가입</button>
+    </form>
+
+<script>
+    const form = document.getElementById("register_form");
+
+    const date = {
+    user_id: form.id.value,
+    password: form.pw.value,
+    name: form.name.value
+    }
+
+    axios({
+    method: "post"
+
+
+</script>
+</body>
+</html>
