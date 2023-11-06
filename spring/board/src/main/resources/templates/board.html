@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+<h1>게시판</h1>
+<form id="board_form">
+    <input type="text" name="name" id="name" placeholder="이름" />
+    <input type="text" name="title" placeholder="title" />
+    <button type="button" onclick="register()" >추가</button>
+</form>
+
+
+<script>
+    function register() {
+        const form = document.getElementById("board_form");
+        const data = {
+            name: form.name.value,
+            title: form.title.value
+        }
+        axios({
+            method: "POST",
+            url: "/board",
+            data
+        }).then(res => {
+            console.log(res)
+        })
+    }
+</script>
+
+</body>
+</html>
