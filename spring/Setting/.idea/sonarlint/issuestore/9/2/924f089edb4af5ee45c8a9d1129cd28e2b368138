@@ -1,0 +1,15 @@
+
+h
+java:S1192
+"KDefine a constant instead of duplicating this literal "./memo.txt" 4 times.(¼Œºé8Õ½¦ò·1
+7
+java:S1220""Move this file to a named package.8Ö½¦ò·1
+j
+java:S2095"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(öÝ ¶üÿÿÿÿ8á½¦ò·1
+e
+java:S2095
+"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(¼Œºé8á½¦ò·1
+n
+java:S2095."LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(™‡¹ìøÿÿÿÿ8á½¦ò·1
+X	java:S125"<This block of commented-out lines of code should be removed.(øùÔÃ8Úð’þ·1
+L	java:S1067"+Replace this use of System.out by a logger.(ñ—¸½úÿÿÿÿ8ì½¦ò·1

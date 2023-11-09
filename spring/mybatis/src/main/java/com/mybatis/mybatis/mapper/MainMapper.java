@@ -34,7 +34,7 @@ public interface MainMapper {
     @Select("SELECT * FROM myusers WHERE userid=#{userid} AND password=#{password}")
     MyUserDTO findUser(String userid, String password);
 
-    @Update("UPDATE " )
+//    @Update("UPDATE " )
 }
 
 //xmlv-매핑-> mapper 인터페이스 -> 서비스

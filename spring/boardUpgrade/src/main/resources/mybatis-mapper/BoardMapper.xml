@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!--@Mapper가 얘를 가리키도록 namespace로 패키지명을 지정해준다!  -->
+<mapper namespace="com.boardSystem.board.mapper.BoardMapper">
+    <select id="customSelect" resultType="com.boardSystem.board.domain.Board2">
+        SELECT * FROM board2
+        <where>
+            <if test="writer != 'ma'">
+                writer = #{writer}
+            </if>
+        </where>
+    </select>
+</mapper>
