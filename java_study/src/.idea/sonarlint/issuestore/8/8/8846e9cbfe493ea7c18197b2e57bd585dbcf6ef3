@@ -1,0 +1,17 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£µÜùùÿÿÿÿ8âÔšßÓ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ§•Óûÿÿÿÿ8ãÔšßÓ1
+X
+java:S1854	"6Remove this useless assignment to local variable "a2".(Ñ¥ã¢şÿÿÿÿ8øÔšßÓ1
+S
+java:S1854"6Remove this useless assignment to local variable "d2".(ıÊ¾û8øÔšßÓ1
+X
+java:S1854"6Remove this useless assignment to local variable "c2".(ø÷³ûÿÿÿÿ8øÔšßÓ1
+I
+java:S1481	"'Remove this unused "a2" local variable.(Ñ¥ã¢şÿÿÿÿ8ùÔšßÓ1
+{
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(§áê¡øÿÿÿÿ8ùÔšßÓ1
+I
+java:S1481"'Remove this unused "c2" local variable.(ø÷³ûÿÿÿÿ8úÔšßÓ1
+D
+java:S1481"'Remove this unused "d2" local variable.(ıÊ¾û8úÔšßÓ1
