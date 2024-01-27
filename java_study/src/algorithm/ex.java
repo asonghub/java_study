@@ -3,7 +3,6 @@ package algorithm;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import javax.lang.model.type.IntersectionType;
 
 public class ex {
     public static boolean[] visited = {false, false,false,false,false,false,false,false,false};
